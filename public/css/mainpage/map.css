@@ -1,0 +1,902 @@
+@charset "UTF-8";
+.left-blog {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+}
+
+.butget {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.svg-map {
+    background: linear-gradient(135deg, lightskyblue, #efefef);
+    /*background-image: url("/img/Oblaka.jpg");*/
+}
+
+.svg-map .container {
+    position: relative;
+    padding-top: 15px;
+}
+
+.svg-map .line-map {
+    width: 1px;
+    height: 920px;
+    position: absolute;
+    top: 15px;
+    left: -36px;
+    background-color: rgb(0, 0, 0)
+}
+
+.svg-map .caption {
+    color: #333;
+    font-family: pfdindisplaypro-bold, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    width: 100%;
+    position: relative
+}
+
+/*.svg-map .caption .circle {*/
+/*    position: absolute;*/
+/*    top: 9px;*/
+/*    !*left: -41px;*!*/
+/*    width: 11px;*/
+/*    height: 11px;*/
+/*    background-color: #f2f2f2;*/
+/*    border: 2px #666 solid;*/
+/*    -webkit-border-radius: 100%;*/
+/*    border-radius: 100%;*/
+/*    display: none*/
+/*}*/
+
+.svg-map .descr {
+    color: #333;
+    font-family: pfdindisplaypro-med, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 24px;
+    width: 100%;
+    margin-top: 4px
+}
+
+.svg-map .map-tab {
+    width: 100%;
+    height: 657px;
+    background-color: #fff;
+    border: 1px #d6d6d6 solid;
+    margin-top: 45px
+}
+
+.svg-map .map-content {
+    position: relative
+}
+
+.svg-map .map-tab-pane {
+    display: none;
+    height: 100%;
+    width: 100%
+}
+
+.svg-map .map-tab-pane .left-menu ul {
+    font-size: 0;
+    list-style-type: none;
+    height: 100%;
+    border-right: 1px solid #d6d6d6;
+    max-height: 655px
+}
+
+.svg-map .map-tab-pane .left-menu ul li {
+    height: 12.5%;
+    min-height: 82px;
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-1:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #e6735c;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #ffbe4c;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-3:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #85cc3d;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-4:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #00a66e;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-5:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #297acc;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-6:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #3e5bb3;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-7:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #4d3d99;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li .okrug-8:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 82px;
+    background-color: #3d2273;
+    opacity: .9
+}
+
+.svg-map .map-tab-pane .left-menu ul li a {
+    display: inline-block;
+    width: 370px;
+    height: 100%;
+    border: 1px solid #d6d6d6;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    position: relative;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+    font-size: 15px;
+    min-height: 81.5px;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .caption {
+    color: #333;
+    font-family: pfdindisplaypro-med, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+    position: relative
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .caption .tooltiped {
+    position: absolute;
+    top: 1px;
+    left: -21px;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .caption .tooltiped:hover {
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .caption .tooltiped:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .caption .tooltiped .tooltip {
+    width: 304px;
+    height: 75px;
+    -webkit-box-shadow: 0 3px 9px rgba(26, 26, 26, .1);
+    box-shadow: 0 3px 9px rgba(26, 26, 26, .1);
+    background-color: #2e994e;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    position: absolute;
+    top: -90px;
+    left: -7px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+    z-index: 10;
+    color: #fff;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px)
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .caption .tooltiped .tooltip:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #2e994e transparent transparent transparent
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .info {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #666;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: right;
+    line-height: 13px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-right: 50px;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .pereg, .svg-map .map-tab-pane .left-menu ul li a .plosh {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .pereg .text, .svg-map .map-tab-pane .left-menu ul li a .plosh .text {
+    max-width: 80px
+}
+
+.svg-map .map-tab-pane .left-menu ul li a .pereg .num, .svg-map .map-tab-pane .left-menu ul li a .plosh .num {
+    color: #666;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    margin-left: 13px
+}
+
+.svg-map .map-tab-pane .left-menu ul li .active {
+    background-color: #e9eef4;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li .active .caption {
+    color: #2c5794;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li .active .info {
+    color: #2c5794;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .left-menu ul li .active .info .num {
+    color: #2c5794;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area {
+    position: relative;
+    height: 100%;
+    width: 800px
+}
+
+.svg-map .map-tab-pane .district-area .dist-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.svg-map .map-tab-pane .district-area .breadcrumbs {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.svg-map .map-tab-pane .district-area .breadcrumbs span {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 9px;
+    margin-right: 9px;
+    color: #666;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.svg-map .map-tab-pane .district-area .breadcrumbs a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    pointer-events: none
+}
+
+.svg-map .map-tab-pane .district-area .breadcrumbs a img {
+    margin-right: 9px
+}
+
+.svg-map .map-tab-pane .district-area .breadcrumbs a span {
+    color: #666;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    margin: 0
+}
+
+.svg-map .map-tab-pane .district-area .breadcrumbs .curr {
+    pointer-events: auto
+}
+
+.svg-map .map-tab-pane .district-area .breadcrumbs .curr span {
+    color: #333;
+    font-family: pfdindisplaypro-med, sans-serif;
+    font-style: normal;
+    font-weight: 400
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 60px;
+    overflow: hidden
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-pagination {
+    color: #333;
+    font-family: pfdindisplaypro-bold, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-pagination-fraction {
+    bottom: 30px;
+    left: -9px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-pagination-current {
+    margin-right: 5px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-pagination-total {
+    margin-left: 5px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-next {
+    width: 10px;
+    height: 16px;
+    background-size: cover;
+    top: auto;
+    bottom: 33px;
+    left: auto;
+    right: 350px;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-next:hover {
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-next:hover:after {
+    opacity: 1;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-next:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-prev {
+    width: 10px;
+    height: 16px;
+    background-size: cover;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top: auto;
+    bottom: 33px;
+    left: 330px;
+    right: auto;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-prev:hover {
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-prev:hover:after {
+    opacity: 1;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .swiper-button-prev:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block {
+    width: 349px;
+    height: 504px;
+    border: 1px #d6d6d6 solid;
+    padding-top: 5px;
+    margin-right: 23px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .image {
+    width: 337px;
+    height: 248px;
+    margin: 0 auto
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .image img {
+    width: 100%;
+    height: 100%
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .text {
+    padding-left: 20px;
+    margin-top: 15px;
+    padding-right: 20px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .text .text-item {
+    color: #666;
+    font-size: 16px;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .text .text-item strong {
+    font-family: pfdindisplaypro-bold, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #333
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .text .text-item span {
+    font-size: 13px;
+    line-height: 18px;
+    display: block
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .text .opisanie {
+    margin-top: 30px;
+    width: 308px;
+    height: 51px;
+    background-color: #2c5794;
+    display: inline-block;
+    color: #fff;
+    font-family: pfdindisplaypro-med, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .text .opisanie:hover {
+    -webkit-transition: all .15s;
+    transition: all .15s;
+    background-color: #1a4480
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .district-block .text .opisanie img {
+    margin-left: 9px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block {
+    color: #666;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 60px;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block .text {
+    font-family: pfdindisplaypro-med, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    text-align: center
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block .phone {
+    text-align: center;
+    margin-top: 60px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block .phone a {
+    display: block;
+    color: #666
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block .or {
+    text-align: center;
+    margin-top: 40px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block .callback {
+    margin: 64px auto 0;
+    display: inline-block;
+    width: 308px;
+    height: 51px;
+    background-color: #2c5794;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    font-family: pfdindisplaypro-med, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block .callback span {
+    display: inline-block;
+    margin-left: 10px
+}
+
+.svg-map .map-tab-pane .district-area .district-blocks .bid-block .callback:hover {
+    -webkit-transition: all .15s;
+    transition: all .15s;
+    background-color: #1a4480
+}
+
+.svg-map .map-tab-pane .map-area {
+    height: 100%;
+    width: 800px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+.svg-map .map-tab-pane .map-area .breadcrumbs {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.svg-map .map-tab-pane .map-area .breadcrumbs span {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 9px;
+    margin-right: 9px;
+    color: #666;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.svg-map .map-tab-pane .map-area .breadcrumbs a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    pointer-events: none
+}
+
+.svg-map .map-tab-pane .map-area .breadcrumbs a img {
+    margin-right: 9px
+}
+
+.svg-map .map-tab-pane .map-area .breadcrumbs a span {
+    color: #666;
+    font-family: pfdindisplaypro-reg, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    margin: 0
+}
+
+.svg-map .map-tab-pane .map-area .breadcrumbs .curr {
+    pointer-events: auto
+}
+
+.svg-map .map-tab-pane .map-area .breadcrumbs .curr span {
+    color: #333;
+    font-family: pfdindisplaypro-med, sans-serif;
+    font-style: normal;
+    font-weight: 400
+}
+
+.svg-map .map-tab-pane .map-area svg {
+    width: 740px;
+    height: 417px;
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .map-area svg a {
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .map-area svg a polygon {
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .map-area svg a path {
+    -webkit-transition: all .15s;
+    transition: all .15s
+}
+
+.svg-map .map-tab-pane .mCSB_scrollTools {
+    width: 16px;
+    border-left: 1px #d6d6d6 solid;
+    background-color: transparent
+}
+
+.svg-map .map-tab-pane .mCSB_scrollTools .mCSB_draggerContainer {
+    opacity: 1
+}
+
+.svg-map .map-tab-pane .mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent
+}
+
+.svg-map .map-tab-pane .mCSB_dragger_bar {
+    width: 16px;
+    -webkit-box-shadow: inset 0 0 0 2px #fff;
+    box-shadow: inset 0 0 0 2px #fff;
+    background-color: #f2f2f2 !important;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    margin: 0 auto;
+    border: 1px #d6d6d6 solid;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 3;
+    border-right: none;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.svg-map .map-tab-pane .mCSB_buttonUp {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 16px;
+    width: 100%
+}
+
+.svg-map .map-tab-pane .mCSB_buttonDown {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 16px;
+    width: 100%
+}
+
+.svg-map .okrug-1 .map-area svg, .svg-map .okrug-2 .map-area svg, .svg-map .okrug-3 .map-area svg, .svg-map .okrug-4 .map-area svg, .svg-map .okrug-5 .map-area svg, .svg-map .okrug-6 .map-area svg, .svg-map .okrug-7 .map-area svg, .svg-map .okrug-8 .map-area svg {
+    width: 678px;
+    height: 560px
+}
+
+.svg-map .okrug-1 .left-menu ul li:last-child a, .svg-map .okrug-6 .left-menu ul li:last-child a {
+    border-bottom: 1px #d6d6d6 solid
+}
+
+.svg-map .faded {
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    opacity: 0
+}
+
+.svg-map .faded.in {
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    opacity: 1
+}
+
+.svg-map .current {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
